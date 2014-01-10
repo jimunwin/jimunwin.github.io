@@ -1,0 +1,94 @@
+/* Portfolio 5 */
+/* Jim Unwin */
+
+body {
+	font: normal 11px/16px Verdana, Geneva, sans-serif;
+	background:url('background_strip.jpg') right top repeat-x #106e50;
+	color: #333;
+	margin: 0px;
+	padding: 0px;
+	}
+
+#folio {
+	background:url('background_chunk.jpg') left top no-repeat ;	
+	width:900px;
+	height: 400px;
+	}
+
+#cloud3{
+	position:absolute;
+	top:130px;
+	right: 10px;
+	}
+
+#guardian{
+	position:absolute;
+	bottom:0px;
+	left:747px;
+	display: none;
+	}
+	
+h1 {
+    text-indent:-1000px;
+    overflow:hidden; 
+	padding: 1px;
+	margin: 0px;
+	height: 300px;
+	display: block;
+	}
+
+h2 {
+	margin: -90px 0px 00px 250px;
+	font: italic bold 14px/14px georgia, clarendon, times, serif; 
+	color: #DFE;
+	}
+
+.column{
+	float: left;
+	display: inline;
+	width:560px;
+	padding: 0px 0px 10px 0px;
+	margin: 5px 0px 10px 250px;
+	border-bottom:1px dotted #333;
+	}
+
+p {
+	
+}
+
+a {
+	color: #224;
+	}
+	
+a:hover{
+	text-decoration: none;
+	}
+	
+a:visited {
+	color: #333;
+	}
+	
+/* Flickr Badges */
+
+#flickr_badge_uber_wrapper {}
+#flickr_badge_wrapper {clear: right; margin: -7px 0px 5px 0px}
+.flickr_badge_image {
+	/*float: left;*/
+	display: inline !important;
+	margin:0px 5px 0px 0px ;
+	}
+
+.flickr_badge_image img { border: 0px; }
+
+
+
+
+#flickr_badge_source {}
+#flickr_badge_icon {}
+#flickr_www {}
+#flickr_badge_wrapper a:hover,
+#flickr_badger_wrapper a:link,
+#flickr_badge_wrapper a:active,
+#flickr_badge_wrapper a:visited {text-decoration:none !important; background:inherit !important;color:#3993ff;}
+#flickr_badge_wrapper {}
+#flickr_badge_source {}

@@ -1,0 +1,152 @@
+/* This is the Chairs of The Incredibles stylesheet 01 */
+/* Written by Jim Unwin 2009 */
+/* jimunwin.com */
+
+body {
+	color: #333;
+	margin: 0px;
+	padding: 0px;
+	font: normal 0.7em/1.1em helvetica, arial, serif; 
+	background:url('../img/header_bg.gif') top left no-repeat #999;
+	}
+
+h1 {
+    height:80px; 
+    text-indent:-10000px;
+    overflow:hidden; 
+    padding: 10px 0px 0px 10px;
+    margin: 0px 0px 10px 0px; 
+	border-bottom: 1px dotted #333;
+	}
+
+h2 {
+	display: block;
+	float:left;
+	width: 100px;
+	height: 100px;
+	margin: 0px;
+	padding: 0px;	
+	text-indent:-10000px;
+    overflow:hidden;
+	background:url('../img/heading_principal.gif') left no-repeat;
+	}
+
+h2.parrs {
+	background-image:url(../img/heading_parrs.gif)
+	}
+
+h2.insuricare {
+	background-image:url(../img/heading_insuricare.gif)
+	}
+
+h2.edna {
+	background-image:url(../img/heading_edna.gif)
+	}
+	
+h2.manta {
+	background-image:url(../img/heading_manta.gif)
+	}
+
+h2.snug {
+	background-image:url(../img/heading_snug.gif)
+	}
+
+h2.syndrome{
+	background-image:url(../img/heading_syndrome.gif)
+	}
+
+
+#content {
+	margin: 0px 0px 10px 0px;
+	padding: 0px 10px 0px 10px;
+	}
+
+#head {
+	
+	}
+
+
+
+#about {
+	padding: 10px 10px 0px 10px;
+	margin: 10px 0px 0px 0px;
+	clear: both;
+	}
+
+#foot {
+	border-top: 1px dotted #333;
+	padding: 10px;
+	margin: 0px 0px 0px 0px;
+	}	
+
+
+p {
+	padding: 0px;
+	margin: 0px 0px 10px 0px;
+	}
+
+img.thumb {
+	width: 100px;
+	height: 100px;
+	background-color: #666;
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+	}
+
+#content ul{
+	display: inline;
+	padding: 5px;
+	margin: 0px;
+	list-style: none; 
+	}
+
+
+#content li{
+	float: left; 
+	display: block;
+	padding: 0px;
+	margin: 0px;
+	width: 100px;
+	height: 100px;
+	}
+
+
+
+a img.thumb {
+	border: 0px
+	text-decoration: none;
+	}
+
+
+/* -------------------------------- Lightbox shizzle ----------------------------- */
+
+#lightbox{	position: absolute;	left: 0; width: 100%; z-index: 100; text-align: center; line-height: 0;}
+#lightbox img{ width: auto; height: auto;}
+#lightbox a img{ border: none; }
+
+#outerImageContainer{ position: relative; background-color: #000; width: 250px; height: 250px; margin: 0 auto; }
+#imageContainer{ padding: 0px; }
+
+#loading{ position: absolute; top: 40%; left: 0%; height: 25%; width: 100%; text-align: center; line-height: 0; }
+#hoverNav{ position: absolute; top: 0; left: 0; height: 100%; width: 100%; z-index: 10; }
+#imageContainer>#hoverNav{ left: 0;}
+#hoverNav a{ outline: none;}
+
+#prevLink, #nextLink{ width: 49%; height: 100%; background-image: url(data:img/gif;base64,AAAA); /* Trick IE into showing hover */ display: block; }
+#prevLink { left: 0; float: left;}
+#nextLink { right: 0; float: right;}
+#prevLink:hover, #prevLink:visited:hover { background: url(../img/prevlabel.gif) left 15% no-repeat; }
+#nextLink:hover, #nextLink:visited:hover { background: url(../img/nextlabel.gif) right 15% no-repeat; }
+
+#imageDataContainer{ font: 10px Verdana, Helvetica, sans-serif; background-color: #000; margin: 0 auto; line-height: 1.4em; overflow: auto; width: 100%	; }
+
+#imageData{	padding:0 10px; color: #FFF; }
+#imageData #imageDetails{ width: 70%; float: left; text-align: left; }	
+#imageData #caption{ font-weight: bold;	}
+#imageData #numberDisplay{ display: block; clear: left; padding-bottom: 1.0em;	}			
+#imageData #bottomNavClose{ width: 66px; float: right;  padding-bottom: 0.7em; outline: none;}	 	
+
+#overlay{ position: absolute; top: 0; left: 0; z-index: 90; width: 100%; height: 500px; background-color: #999; }
+
+
